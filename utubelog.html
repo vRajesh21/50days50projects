@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@200;300&family=Prompt:wght@700&family=Rajdhani:wght@400;500;600&display=swap');
+    body{
+        font-family: 'poppins';
+        margin: 0; 
+        padding: 0;
+        background-color: ;
+        background-size: cover;
+    }
+    .container{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+    .card{
+        padding: 60px 40px 50px 40px;
+        background-color: black;
+        border-radius: 10px;
+
+    }
+    #name{
+        width: 250px;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid white;
+        padding: 6px;
+        margin-bottom: 20px;
+        color: white
+    }
+    #button{
+        border: 20px;
+        padding: 10px 20px;
+        background-color: dodgerblue;
+        color: white;
+        margin: 20px 0px 0px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 85px;
+    }
+
+    #button:hover{
+        background-color: white;
+        color: black;
+        transition: 0.3s;
+    }
+    a{
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        opacity: 0.8;
+    }
+    .image{
+        width: 75px;
+        height: 80px;
+        border-radius: 50%;
+        margin-left: 90px;
+        margin-top: -95px;
+        position: absolute;
+        border: none;
+        
+    }
+   
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2vO2n-_DpXS1ZSm8d4Tn743V5FTuU2tYhEw&usqp=CAU" >
+            <input type="text" placeholder="Username" id="name" required><br>
+            <input type="password" placeholder="password" id="name"><br>
+            <a href="#">Forgot Password</a><br>
+            <input type="Submit" value="submit" id="button">
+        </div>
+    </div>
+</body>
+</html>
